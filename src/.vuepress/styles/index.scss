@@ -1,0 +1,11 @@
+// place your custom styles here
+
+.vp-highlight-image {
+    width: 45%;
+}
+
+@media screen and (max-width: 600px) {
+    .vp-highlight-image {
+        width: 80%;
+    }
+}
