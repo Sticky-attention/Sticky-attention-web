@@ -49,8 +49,8 @@ highlights:
       - title: GitHub Releases
         icon: fa-brands fa-github
         details: 获取最新的发行版！
-        link: https://theme-hope.vuejs.press/zh/guide/markdown/content/revealjs.html
+        link: https://github.com/Sticky-attention/Sticky-attention/releases
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
+footer: 本文档以 CC BY-NC-SA 4.0 许可协议授权, 版权所有 © 2024 Jizilin
 ---

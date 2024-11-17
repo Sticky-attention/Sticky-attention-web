@@ -26,7 +26,8 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "本文档以 CC BY-NC-SA 4.0 许可协议授权。",
+  copyright: "Copyright © 2024 Jizilin",
   displayFooter: true,
 
   // 加密配置
