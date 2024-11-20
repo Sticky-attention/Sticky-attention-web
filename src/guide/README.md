@@ -1,7 +1,7 @@
 ---
 alert: true
-title: 下载Sticky-attention
-icon: download
+title: 使用指南
+icon: lightbulb
 ---
 
 ## 下载本软件
