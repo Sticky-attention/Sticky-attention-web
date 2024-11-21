@@ -13,6 +13,7 @@ export default defineUserConfig({
       markdownHint: {
         // 启用 GFM 警告
         alert: true,
+      },
       components: {
         // 你想使用的组件
         "BiliBili",
@@ -31,7 +32,6 @@ export default defineUserConfig({
           "XiGua",
         ],
       },
-     },
     },
   }),
 });
