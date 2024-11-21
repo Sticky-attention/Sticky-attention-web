@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+import { hopeTheme } from "vuepress-theme-hope";
 
 import theme from "./theme.js";
 
@@ -13,4 +14,27 @@ export default defineUserConfig({
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
+  export default {
+  theme: hopeTheme({
+    plugins: {
+      components: {
+        // 你想使用的组件
+        components: [
+          "ArtPlayer",
+          "Badge",
+          "BiliBili",
+          "CodePen",
+          "PDF",
+          "Share",
+          "SiteInfo",
+          "StackBlitz",
+          "VPBanner",
+          "VPCard",
+          "VidStack",
+          "XiGua",
+        ],
+      },
+    },
+  }),
+};
 });
