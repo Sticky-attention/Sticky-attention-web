@@ -12,20 +12,8 @@ export default defineUserConfig({
     plugins: {
       components: {
         // 你想使用的组件
-        "BiliBili",
         components: [
-          "ArtPlayer",
-          "Badge",
           "BiliBili",
-          "CodePen",
-          "PDF",
-          "Share",
-          "SiteInfo",
-          "StackBlitz",
-          "VPBanner",
-          "VPCard",
-          "VidStack",
-          "XiGua",
         ],
       },
     },
