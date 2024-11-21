@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
-
-import theme from "./theme.js";
+import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
   base: "/",
@@ -9,7 +8,25 @@ export default defineUserConfig({
   title: "StickyAttention",
   description: "一款新作业贴软件 新增了原版没有的新功能",
 
-  theme,
-
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
+  theme: hopeTheme({
+    plugins: {
+      components: {
+        // 你想使用的组件
+        components: [
+          "ArtPlayer",
+          "Badge",
+          "BiliBili",
+          "CodePen",
+          "PDF",
+          "Share",
+          "SiteInfo",
+          "StackBlitz",
+          "VPBanner",
+          "VPCard",
+          "VidStack",
+          "XiGua",
+        ],
+      },
+    },
+  }),
+});
