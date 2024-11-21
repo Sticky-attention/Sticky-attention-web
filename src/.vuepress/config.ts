@@ -10,11 +10,7 @@ export default defineUserConfig({
   title: "StickyAttention",
   description: "一款新作业贴软件 新增了原版没有的新功能",
 
-  theme,
-
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
-  export default {
+  // theme,
   theme: hopeTheme({
     plugins: {
       components: {
@@ -36,5 +32,8 @@ export default defineUserConfig({
       },
     },
   }),
+
+  // 和 PWA 一起启用
+  // shouldPrefetch: false,
 };
 });
