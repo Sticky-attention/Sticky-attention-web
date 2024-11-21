@@ -10,8 +10,12 @@ export default defineUserConfig({
 
   theme: hopeTheme({
     plugins: {
+      markdownHint: {
+        // 启用 GFM 警告
+        alert: true,
       components: {
         // 你想使用的组件
+        "BiliBili",
         components: [
           "ArtPlayer",
           "Badge",
@@ -27,6 +31,7 @@ export default defineUserConfig({
           "XiGua",
         ],
       },
+     },
     },
   }),
 });
